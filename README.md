@@ -18,7 +18,7 @@ The graphical way or transactions performed is given below (AD7475 Datasheet):
 The data width bits are specified through the 'data_w' constant in the MODEL PACKAGE. This model automatically performs all the required operations needed for the ADC to be employed. The message width is always set to _4bits + data_w_, as to set the given requirements for the ADC model employed, for which the nominal data length is of 12 bits. The CLK period employed for this program was of 20ns, although it can be changed if desired.
 <br/>
 
-The instructions used for the ADC are also given through a VHDL pseudo-code file, where there are only 4 CHARACTERS per line read, representing the voltage value (analogic) to be converted to digital. An example of pseudo-code file would be the following:
+The instructions used for the ADC are also given through a VHDL pseudo-code file, where there are only 4 CHARACTERS per line read, representing the voltage value (analogic varying between 0.00V to 2.50V) to be converted to digital. An example of pseudo-code file would be the following:
 <br/>
 <br/>
 
